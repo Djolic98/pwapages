@@ -2,7 +2,7 @@
  "short_name": "shop",
  "name": "shop pwa",
  "start_url": "/",
- 
+ "scope": "/",
  "lang": "en",
  "description": "no description",
  "background_color": "#00e794",

@@ -5,7 +5,7 @@
     
     window.addEventListener('load',()=>{
       navigator.serviceWorker
-      .register("sw_cache_site.js") //da bu se scope sw poklapa sa scope aplikacije
+      .register("sw_cache_site.js",{ scope: "/" }) //da bu se scope sw poklapa sa scope aplikacije
       .then(reg => console.log('Service Worker:Registered'))
       .catch(err => console.log('Service Worker: Error: ${err}'));
     })
